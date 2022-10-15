@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void displayToast(String message) {
+    public  void displayToast(String message) {
 
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
